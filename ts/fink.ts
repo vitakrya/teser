@@ -16,3 +16,5 @@ module s {
     }
   }
 }
+
+console.log("My stupid commit");

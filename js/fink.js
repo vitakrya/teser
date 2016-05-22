@@ -14,3 +14,4 @@ var s;
     })();
     s.Student = Student;
 })(s || (s = {}));
+console.log("My stupid commit");
