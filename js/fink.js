@@ -10,6 +10,9 @@ var s;
         Student.prototype.greeter = function (person) {
             return "Hello, " + person.firstName + person.lastName;
         };
+        Student.prototype.satNo = function () {
+            console.log(this.firstName + ' says NO!');
+        };
         return Student;
     })();
     s.Student = Student;

@@ -14,6 +14,10 @@ module s {
     greeter(person: Person): string {
       return "Hello, " + person.firstName + person.lastName;
     }
+
+    satNo(): void {
+      console.log(this.firstName + ' says NO!');
+    }
   }
 }
 
